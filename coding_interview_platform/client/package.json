@@ -1,0 +1,12 @@
+{
+  "name": "cip-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -p 8080 -c-1",
+    "test": "echo \"No client unit tests configured\" && exit 0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

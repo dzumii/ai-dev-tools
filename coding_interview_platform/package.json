@@ -1,0 +1,14 @@
+{
+  "name": "coding-interview-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "test": "npm --prefix server test && npm --prefix client test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
